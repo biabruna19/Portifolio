@@ -84,4 +84,5 @@ const typeObserver = new IntersectionObserver((entries) => {
 // Seleciona todos os textos que terão o efeito
 document.querySelectorAll('.typing-effect').forEach(text => {
     typeObserver.observe(text);
+
 });
